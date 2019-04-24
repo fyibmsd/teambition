@@ -17,9 +17,7 @@ class Server {
       upstream.write(buf);
     });
 
-    conn.on('error', err => {
-      console.log(err);
-    });
+    conn.on('error', log);
   }
 
   run(cb) {
