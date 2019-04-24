@@ -1,0 +1,19 @@
+{
+  "name": "teambition",
+  "version": "0.1.0",
+  "description": "solutions to teambition's question",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "redis": "^2.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
